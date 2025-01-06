@@ -26,7 +26,6 @@ See the file filter.py for more details.
 
 ## File Structure
 ```
-
 spamfilter/
 ├── pyproject.toml #To build the package.
 ├── README.md #Documentation.
@@ -43,7 +42,7 @@ spamfilter/
 
 ## Requirements
 - Python 3.7+
-- pandas 1.0.3+,
+- pandas 1.0.3+
 - numpy 1.18.4+
 
 ## For Package Development
