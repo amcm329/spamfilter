@@ -5,14 +5,10 @@ build-backend = "hatchling.build"
 [project]
 name = "spamfilter"
 
-include = [
-    "src/spamfilter/**"
-]
-
 version = "0.0.1"
 
 authors = [
-  { name="Aaron Castillo", email="aaroncastillo@imperial.ac.uk" }
+  { name="Aaron Castillo", email="amc224@imperial.ac.uk" }
 ]
 
 description = "Package that contains all necessary elements to create a Naive Bayes classifier along with extra cleansing functionalities."
@@ -27,12 +23,16 @@ dependencies = [
 
 ]
 
-licence="MIT"
+license = "MIT"
 
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
+]
+
+packages = [
+     { include = "spamfilter", from = "src" }
 ]
 
 [tool.pytest.ini_options]
