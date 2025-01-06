@@ -31,6 +31,9 @@ spamfilter/
 ├── pyproject.toml #To build the package.
 ├── README.md #Documentation.
 ├── LICENSE #idem.
+├── dist/
+│   └── spamfilter-0.0.1.tar
+│   └── spamfilter-0.0.1-py3-none-any.whl 
 ├── src/
 │   └── spamfilter/
 │       ├── __init__.py
