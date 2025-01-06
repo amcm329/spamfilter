@@ -27,6 +27,7 @@ See the file filter.py for more details.
 ## File Structure
 ```
 spamfilter/
+├── filter.py #Contains all implementations and analysis.
 ├── pyproject.toml #To build the package.
 ├── README.md #Documentation.
 ├── LICENSE #idem.
