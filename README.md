@@ -40,6 +40,16 @@ Or:
 python pip install -m dist/spamfilter-0.0.1-py3-none-any.whl
 ```
 
+If none of these work, execute: 
+
+```bash
+pip install dist/spamfilter-0.0.1.tar.gz
+```
+
+```bash
+pip install dist/spamfilter-0.0.1-py3-none-any.whl
+```
+
 It is enough to execute only one option.
 
 **_NOTE:_** Do not try to install the package by using a Python script or Python libraries, otherwise
