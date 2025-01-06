@@ -18,7 +18,7 @@ The **spamfilter** package provides a simple implementation of a Naive Bayes cla
 ## Package Creation
 You need to install the dependencies mentioned in the section *Requirements For Package Creation*.
 
-Then, you need to place the prompt in the main path of this folder, then execute: 
+Afterwards, you need to place the prompt in the main path of this folder, then execute: 
 ```bash
 python -m pytest
 python -m build
