@@ -274,8 +274,3 @@ class TestNaiveBayes(unittest.TestCase):
     
         #Check 6. We validate that accuracy is 1.
         self.assertEqual(accuracy, 1.0)
-
-
-# Run the tests
-#if __name__ == "__main__":
-#    unittest.main()

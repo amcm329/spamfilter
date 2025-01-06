@@ -221,8 +221,3 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(word_counts.loc["n_spam", "bargain"], 1)
         self.assertEqual(word_counts.loc["n_ham", "information"], 1)
         self.assertEqual(word_counts.loc["n_spam", "information"], 0)
-
-       
-# Run the tests
-#if __name__ == "__main__":
-#    unittest.main()
