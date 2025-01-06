@@ -16,7 +16,9 @@ The **spamfilter** package provides a simple implementation of a Naive Bayes cla
 **Current Version:** 0.0.1
 
 ## Package Creation
-You need to place the prompt in the main path of this folder, then execute: 
+You need to install the dependencies mentioned in the section *Requirements For Package Creation*.
+
+Then, you need to place the prompt in the main path of this folder, then execute: 
 ```bash
 python -m pytest
 python -m build
@@ -41,10 +43,10 @@ python pip install -m dist/spamfilter-0.0.1-py3-none-any.whl
 It is enough to execute only one option.
 
 **_NOTE:_** Do not try to install the package by using a Python script or Python libraries, otherwise
-it will create a partial installation, the recommended way is 
+it will create a partial installation, the recommended way is the options specified before.
 
 ## Usage
-See the file filter.py for more details, as it contains more nurtured examples.
+See the file *filter.py* for more details, as it contains more nurtured examples.
 
 ## File Structure
 ```
