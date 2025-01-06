@@ -15,8 +15,8 @@ Author:
 
 import unittest
 import pandas as pd
-#from classifier import NaiveBayes
-from spamfilter import document_terms, compute_word_counts, NaiveBayes
+from spamfilter.classifier import NaiveBayes
+from spamfilter.utils import document_terms, compute_word_counts
 
 
 class TestNaiveBayes(unittest.TestCase):

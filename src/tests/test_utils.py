@@ -14,7 +14,7 @@ Author:
 
 import unittest
 import pandas as pd
-from spamfilter import tokenize, document_terms, compute_word_counts
+from spamfilter.utils import tokenize, document_terms, compute_word_counts
 
 
 class TestUtils(unittest.TestCase):
