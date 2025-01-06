@@ -22,7 +22,7 @@ python -m pytest
 python -m build
 ```
 
-This will create a folder dist with two files: 
+This will create a folder called *dist* with two files: 
 * spamfilter-0.0.1.tar
 * spamfilter-0.0.1-py3-none-any.whl 
 
